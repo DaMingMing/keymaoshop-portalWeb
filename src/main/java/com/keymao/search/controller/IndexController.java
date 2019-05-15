@@ -1,4 +1,4 @@
-package com.keymao.portal.controller;
+package com.keymao.search.controller;
 
 import com.keymao.content.service.ContentService;
 import com.keymao.pojo.TbContent;
