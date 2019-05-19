@@ -1,15 +1,9 @@
-package com.keymao.search.controller;
+package com.keymao.portal.controller;
 
-import com.keymao.content.service.ContentService;
-import com.keymao.pojo.TbContent;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.List;
 
 //首页展示
 @Controller
