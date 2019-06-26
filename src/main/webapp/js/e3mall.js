@@ -11,7 +11,8 @@ var E3MALL = {
 			success : function(data){
 				if(data.status == 200){
 					var username = data.data.username;
-					var html = username + "，欢迎来到keymao购物网！<a href=\"localhost:8088/user/logout.html?token=_ticket\" + '_ticket'  class=\"link-logout\">[退出]</a>";
+					var html = username + "，欢迎来到keymao购物网！<a href=\"http://localhost:8088/user/logout.html?token="+ _ticket  + "\" class=\"link-logout\">[退出]</a>";
+                    //var html = `${username}，欢迎来到keymao购1物网！<a href="localhost:8088/user/logout.html?token=${_ticket}" class="link-logout">[退出]</a>`;
 					$("#loginbar").html(html);
 				}
 			}
